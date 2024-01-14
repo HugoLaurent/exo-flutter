@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:first_app/style_text.dart';
+
+import 'package:first_app/dice_roller.dart';
 
 const startAlignement = Alignment.topLeft;
 const endAlignement = Alignment.bottomRight;
@@ -21,7 +22,7 @@ class GradientContainer extends StatelessWidget {
         ),
       ),
       child: const Center(
-        child: StyleText("Lâche ta loc !"),
+        child: DiceRoller(),
       ),
     );
   }
